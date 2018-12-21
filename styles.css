@@ -18,7 +18,7 @@ html, body {
 }
 
 @media (max-width: 575.98px) {
-    html { font-size: 55%; } 
+    html { font-size: 55%; }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
     html { font-size: 58%; }
@@ -27,9 +27,11 @@ html, body {
     html { font-size: 60%; }
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
+    .small-screen-break { display: none; }
     html { font-size: 62.5%; }
 }
 @media (min-width: 1200px) {
+    .small-screen-break { display: none; }
     html { font-size: 62.5%; }
 }
 
@@ -62,6 +64,10 @@ p, a {
 
 a:hover {
     filter: brightness(140%);
+}
+
+p a {
+    color: #FF6F3F;
 }
 
 #mlh-trust-badge {
