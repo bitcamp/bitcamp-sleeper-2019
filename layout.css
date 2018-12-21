@@ -1,0 +1,37 @@
+/* Padding styles */
+.p-b-s {
+    padding-bottom: 0.5rem;
+}
+
+.p-b-m {
+    padding-bottom: 1rem;
+}
+
+.p-b-l {
+    padding-bottom: 1.5rem;
+}
+
+/* Margin styles */
+.m-b-s {
+    margin-bottom: 0.5rem;
+}
+
+.m-b-m {
+    margin-bottom: 1rem;
+}
+
+.m-b-l {
+    margin-bottom: 1.5rem;
+}
+
+.m-t-s {
+    margin-top: 0.5rem;
+}
+
+.m-t-m {
+    margin-top: 1rem;
+}
+
+.m-t-l {
+    margin-top: 1.5rem;
+}

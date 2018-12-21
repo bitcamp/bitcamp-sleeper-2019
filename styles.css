@@ -1,0 +1,116 @@
+@font-face {
+    font-family: Avenir;
+    src: url("fonts/Avenir/AvenirLTStd-Book.otf") format("opentype");
+}
+  
+@font-face {
+    font-family: Aleo;
+    src: url("fonts/Aleo/Aleo-Regular.otf") format("opentype");
+}
+
+html, body {
+    background: #CBF2FF;
+    overflow-x: hidden;
+    font-size: 1.8rem;
+    font-family: Avenir;
+    color: #1A2E33;
+    line-height: 1.5;
+}
+
+@media (max-width: 575.98px) {
+    html { font-size: 55%; } 
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    html { font-size: 58%; }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    html { font-size: 60%; }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    html { font-size: 62.5%; }
+}
+@media (min-width: 1200px) {
+    html { font-size: 62.5%; }
+}
+
+.container {
+    width: 100vw;
+    padding-top: 10vh;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-family: Aleo;
+    font-weight: bold;
+}
+
+p, a {
+    color: #1A2E33;
+    text-decoration: none;
+}
+
+#body-text {
+    margin: auto;
+    padding: 3rem 1rem;
+    max-width: 40rem;
+}
+
+#footer {
+    margin-bottom: 2rem;
+}
+
+a:hover {
+    filter: brightness(140%);
+}
+
+#mlh-trust-badge {
+    display: block;
+    max-width: 8rem;
+    min-width: 4em;
+    position: absolute;
+    right: 4rem;
+    top: -0.1rem;
+    width: 10%;
+    transition: ease all .2s;
+    z-index: 100;
+}
+    #mlh-trust-badge:hover {
+        filter: brightness(120%);
+    }
+
+.logo-box {
+    position: relative;
+}
+    .logo-box img.fire {
+        position: absolute;
+        width: 20rem;
+        z-index: 12;
+        transform: translateX(3.5rem) translateY(-5rem);
+    }
+    .logo-box img.logo {
+        width: 28rem;
+        height: 28rem;
+        margin-bottom: 1rem;
+    }
+
+.social-icons a {
+    transition: ease all .2s;
+    margin-left: 2rem;
+    text-decoration: none;
+}
+.social-icons a:first-child {
+    margin-left: 0;
+}
+.social-icons a .icon {
+    width: 4rem;
+}
+
+img.icon {
+    width: 4rem;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    -ms-interpolation-mode: nearest-neighbor;
+    image-rendering: pixelated;
+}
