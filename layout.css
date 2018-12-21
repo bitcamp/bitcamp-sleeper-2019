@@ -11,6 +11,22 @@
     padding-bottom: 1.5rem;
 }
 
+.p-t-s {
+    padding-top: 0.5rem;
+}
+
+.p-t-m {
+    padding-top: 1rem;
+}
+
+.p-t-l {
+    padding-top: 1.5rem;
+}
+
+.p-t-xl {
+    padding-top: 3rem;
+}
+
 /* Margin styles */
 .m-b-s {
     margin-bottom: 0.5rem;
@@ -24,6 +40,10 @@
     margin-bottom: 1.5rem;
 }
 
+.m-b-xl {
+    margin-bottom: 3rem;
+}
+
 .m-t-s {
     margin-top: 0.5rem;
 }
@@ -34,4 +54,8 @@
 
 .m-t-l {
     margin-top: 1.5rem;
+}
+
+.m-t-xl {
+    margin-top: 3rem;
 }
