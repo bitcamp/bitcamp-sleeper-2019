@@ -1,0 +1,98 @@
+/* Image Properties */
+.cloud {
+    position: absolute;
+    z-index: 0;
+    -moz-animation: cloudDrift linear infinite;
+    -webkit-animation: cloudDrift linear infinite;
+    -o-animation: cloudDrift linear infinite;
+    animation: cloudDrift linear infinite;
+}
+
+.fadeInAndOut {
+    -moz-animation: fadeInAndOut linear infinite;
+    -webkit-animation: fadeInAndOut linear infinite;
+    -o-animation: fadeInAndOut linear infinite;
+    animation: fadeInAndOut linear infinite;
+}
+
+.long-duration {
+    -moz-animation-duration: 60s;
+    -webkit-animation-duration: 60s;
+    -o-animation-duration: 60s;
+    animation-duration: 60s;
+}
+.medium-duration {
+    -moz-animation-duration: 45s;
+    -webkit-animation-duration: 45s;
+    -o-animation-duration: 45s;
+    animation-duration: 45s;
+}
+.short-duration {
+    -moz-animation-duration: 35s;
+    -webkit-animation-duration: 35s;
+    -o-animation-duration: 35s;
+    animation-duration: 35s;
+}
+
+.lrg {
+    top: 12rem;
+    left: -5%;
+}
+.sml {
+    top: 22rem;
+    left: 23%;
+}
+.med {
+    top: 40rem;
+    left: 5%;
+}
+
+/* Clouds drifting */
+@-moz-keyframes cloudDrift {
+    from { -moz-transform: translateX(0rem); }
+    to { -moz-transform: translateX(75rem); }
+}
+@-webkit-keyframes cloudDrift {
+    from { -webkit-transform: translateX(0rem); }
+    to { -webkit-transform: translateX(75rem); }
+} 
+@-o-keyframes cloudDrift {
+    from { -o-transform: translateX(0rem); }
+    to { -o-transform: translateX(75rem); }
+}
+@keyframes cloudDrift {
+    from { transform: translateX(0rem); }
+    to { transform: translateX(75rem); }
+}
+
+/* Fade in */
+@keyframes fadeInAndOut {
+    0%   { opacity: 0; }
+    5%   { opacity: 1; }
+    90%  { opacity: 1; }
+    100% { opacity: 0; }
+}
+@-moz-keyframes fadeInAndOut {
+    0%   { opacity: 0; }
+    5%   { opacity: 1; }
+    90%  { opacity: 1; }
+    100% { opacity: 0; }
+}
+@-webkit-keyframes fadeInAndOut {
+    0%   { opacity: 0; }
+    5%   { opacity: 1; }
+    90%  { opacity: 1; }
+    100% { opacity: 0; }
+}
+@-ms-keyframes fadeInAndOut {
+    0%   { opacity: 0; }
+    5%   { opacity: 1; }
+    90%  { opacity: 1; }
+    100% { opacity: 0; }
+}
+@-o-keyframes fadeInAndOut {
+    0%   { opacity: 0; }
+    5%   { opacity: 1; }
+    90%  { opacity: 1; }
+    100% { opacity: 0; }
+}

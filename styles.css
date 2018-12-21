@@ -41,6 +41,11 @@ html, body {
     background: #CBF2FF;
 }
 
+.above-the-clouds {
+    position: relative;
+    z-index: 100;
+}
+
 .aleo {
     font-family: Aleo;
 }
@@ -72,6 +77,7 @@ p, a {
 
 #tree-tent {
     position: relative;
+    margin-top:-2rem;
     right: 18%;
 }
 
