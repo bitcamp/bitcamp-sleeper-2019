@@ -16,6 +16,10 @@ html, body {
     line-height: 1.5;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 @media (max-width: 575.98px) {
     html { font-size: 55%; }
 }
